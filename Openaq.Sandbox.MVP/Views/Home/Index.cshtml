@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Openaq.Sandbox.MVP.Domain.Services.Openaq.Country>
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Openaq City Data overview</h1>
+    <br>
+    <form asp-action="Index">
+        <select id="counties" class="form-select" name="type" asp-items="ViewBag.Countries">
+            <option value="all">Choose Country</option>
+        </select>
+    </form>
+    <br>
+    <div id="citiesContainer">
+        <select id="cities" class="form-select" name="type" disabled="disabled">
+            <option value="all">Choose City</option>
+        </select>
+    </div>
+    <div id="locations">
+
+    </div>
+</div>
+
+@section Scripts{ 
+    <script>  
+        $(function () {
+            $("#counties").change(function () {
+                $.ajax({
+                    type: "Get",
+                    url: "/Home/ShowCities?country=" + $(this).val(),
+                    success: function (data) {
+                        $("#citiesContainer").html("");
+                        $("#citiesContainer").html(data);
+                    },
+                    error: function (response) {
+                        window.location.replace("/home/error");
+                    }
+                });
+            });
+        });
+    </script>
+}

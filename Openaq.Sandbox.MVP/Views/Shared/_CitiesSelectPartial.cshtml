@@ -1,0 +1,22 @@
+﻿
+<select id="cities" class="form-select" name="city" asp-items="ViewBag.Cities">
+    <option value="all">Choose City</option>
+</select>
+
+<script>
+    $(function () {
+        $("#cities").change(function () {
+            $.ajax({
+                type: "Get",
+                url: "/Home/ShowMeasurementByCity?city=" + $(this).val(),
+                success: function (data) {
+                    $("#locations").html("");
+                    $("#locations").html(data);
+                },
+                error: function (response) {
+                    window.location.replace("/home/error");
+                }
+            });
+        });
+    });
+</script>

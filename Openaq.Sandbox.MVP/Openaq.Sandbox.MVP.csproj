@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Openaq.Sandbox.MVP.Core\Openaq.Sandbox.MVP.Core.csproj" />
+    <ProjectReference Include="..\Openaq.Sandbox.MVP.Infrastructure\Openaq.Sandbox.MVP.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

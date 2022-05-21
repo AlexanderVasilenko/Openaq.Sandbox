@@ -1,0 +1,15 @@
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\obj\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\obj\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\obj\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\obj\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.AssemblyInfo.cs
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\obj\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\bin\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.deps.json
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\bin\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.dll
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\bin\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.pdb
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\bin\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Core.dll
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\bin\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Domain.dll
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\bin\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Core.pdb
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\bin\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Domain.pdb
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\obj\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.csproj.CopyComplete
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\obj\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.dll
+C:\Projects\Openaq.Sandbox.MVP\Openaq.Sandbox.MVP.Infrastructure\obj\Debug\netcoreapp3.1\Openaq.Sandbox.MVP.Infrastructure.pdb

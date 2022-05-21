@@ -1,0 +1,30 @@
+﻿
+<br>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Location
+            </th>
+            <th>
+                Measurements
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+        <tr>
+            <td>
+                <a href=@("https://www.google.com/maps/place/" + item.Coordinates.Latitude + "," + item.Coordinates.Longitude) target="_blank">@item.Location</a>
+            </td>
+            @foreach (var measurement in item.Measurements)
+            {
+            <td>
+                <strong>@measurement.Parameter</strong> @measurement.Value @measurement.Unit
+            </td>
+            }
+        </tr>
+        }
+    </tbody>
+</table>
